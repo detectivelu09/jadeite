@@ -1,0 +1,679 @@
+digraph "" {
+    "r0 := @this: Corvid.Runtime"
+    "push \"\""
+    "r0 := @this: Corvid.Runtime"->"push \"\"";
+    "store.r $r87"
+    "push \"\""->"store.r $r87";
+    "load.r r0"
+    "store.r $r87"->"load.r r0";
+    "fieldget <Corvid.Runtime: boolean initCalled>"
+    "load.r r0"->"fieldget <Corvid.Runtime: boolean initCalled>";
+    "push 1"
+    "fieldget <Corvid.Runtime: boolean initCalled>"->"push 1";
+    "ifcmpne.b load.r r0"
+    "push 1"->"ifcmpne.b load.r r0";
+    "ifcmpne.b load.r r0"->"load.r r0";
+    "virtualinvoke <Corvid.Runtime: void destroy()>"
+    "load.r r0"->"virtualinvoke <Corvid.Runtime: void destroy()>";
+    "return"
+    "virtualinvoke <Corvid.Runtime: void destroy()>"->"return";
+    "ifcmpne.b load.r r0"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean initCalled>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean initCalled>";
+    "fieldput <Corvid.Runtime: boolean initCalled>"->"load.r r0";
+    "fieldget <Corvid.Runtime: boolean running>"
+    "load.r r0"->"fieldget <Corvid.Runtime: boolean running>";
+    "fieldget <Corvid.Runtime: boolean running>"->"push 1";
+    "ifcmpne.b staticget <java.lang.System: java.io.PrintStream out>"
+    "push 1"->"ifcmpne.b staticget <java.lang.System: java.io.PrintStream out>";
+    "ifcmpne.b staticget <java.lang.System: java.io.PrintStream out>"->"load.r r0";
+    "push \"External applet sending data back to CORVID\""
+    "load.r r0"->"push \"External applet sending data back to CORVID\"";
+    "virtualinvoke <Corvid.Runtime: void ShowTrace(java.lang.String)>"
+    "push \"External applet sending data back to CORVID\""->"virtualinvoke <Corvid.Runtime: void ShowTrace(java.lang.String)>";
+    "virtualinvoke <Corvid.Runtime: void ShowTrace(java.lang.String)>"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "virtualinvoke <java.awt.Component: java.lang.String getName()>"
+    "load.r r0"->"virtualinvoke <java.awt.Component: java.lang.String getName()>";
+    "virtualinvoke <Corvid.Runtime: void CorvidAcceptReturnData(java.lang.String)>"
+    "virtualinvoke <java.awt.Component: java.lang.String getName()>"->"virtualinvoke <Corvid.Runtime: void CorvidAcceptReturnData(java.lang.String)>";
+    "virtualinvoke <Corvid.Runtime: void CorvidAcceptReturnData(java.lang.String)>"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "fieldget <Corvid.Runtime: java.lang.String origName>"
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String origName>";
+    "virtualinvoke <java.awt.Component: void setName(java.lang.String)>"
+    "fieldget <Corvid.Runtime: java.lang.String origName>"->"virtualinvoke <java.awt.Component: void setName(java.lang.String)>";
+    "virtualinvoke <java.awt.Component: void setName(java.lang.String)>"->"return";
+    "staticget <java.lang.System: java.io.PrintStream out>"
+    "ifcmpne.b staticget <java.lang.System: java.io.PrintStream out>"->"staticget <java.lang.System: java.io.PrintStream out>";
+    "push \"Exsys CORVID Runtime - \""
+    "staticget <java.lang.System: java.io.PrintStream out>"->"push \"Exsys CORVID Runtime - \"";
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"
+    "push \"Exsys CORVID Runtime - \""->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"load.r r0";
+    "fieldget <Corvid.Runtime: java.lang.String ThisJarVersionNumber>"
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String ThisJarVersionNumber>";
+    "fieldget <Corvid.Runtime: java.lang.String ThisJarVersionNumber>"->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>"
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>";
+    "virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>"->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "push \" \n\""
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"push \" \n\"";
+    "push \" \n\""->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>";
+    "virtualinvoke <java.io.PrintStream: void print(java.lang.String)>"
+    "virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>"->"virtualinvoke <java.io.PrintStream: void print(java.lang.String)>";
+    "push \"java.vendor\""
+    "virtualinvoke <java.io.PrintStream: void print(java.lang.String)>"->"push \"java.vendor\"";
+    "staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>"
+    "push \"java.vendor\""->"staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>";
+    "push \"Microsoft\""
+    "staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>"->"push \"Microsoft\"";
+    "virtualinvoke <java.lang.String: int indexOf(java.lang.String)>"
+    "push \"Microsoft\""->"virtualinvoke <java.lang.String: int indexOf(java.lang.String)>";
+    "push -1"
+    "virtualinvoke <java.lang.String: int indexOf(java.lang.String)>"->"push -1";
+    "ifcmple.i goto load.r r0"
+    "push -1"->"ifcmple.i goto load.r r0";
+    "push \"java.version\""
+    "ifcmple.i goto load.r r0"->"push \"java.version\"";
+    "push \"java.version\""->"staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>";
+    "push \"1.1\""
+    "staticinvoke <java.lang.System: java.lang.String getProperty(java.lang.String)>"->"push \"1.1\"";
+    "virtualinvoke <java.lang.String: boolean equalsIgnoreCase(java.lang.String)>"
+    "push \"1.1\""->"virtualinvoke <java.lang.String: boolean equalsIgnoreCase(java.lang.String)>";
+    "ifeq goto load.r r0"
+    "virtualinvoke <java.lang.String: boolean equalsIgnoreCase(java.lang.String)>"->"ifeq goto load.r r0";
+    "ifeq goto load.r r0"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean useUncompressedFile>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean useUncompressedFile>";
+    "goto load.r r0"
+    "fieldput <Corvid.Runtime: boolean useUncompressedFile>"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "virtualinvoke <java.applet.Applet: java.applet.AppletContext getAppletContext()>"
+    "load.r r0"->"virtualinvoke <java.applet.Applet: java.applet.AppletContext getAppletContext()>";
+    "fieldput <Corvid.Runtime: java.applet.AppletContext SysAC>"
+    "virtualinvoke <java.applet.Applet: java.applet.AppletContext getAppletContext()>"->"fieldput <Corvid.Runtime: java.applet.AppletContext SysAC>";
+    "fieldput <Corvid.Runtime: java.applet.AppletContext SysAC>"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "push 0"
+    "load.r r0"->"push 0";
+    "fieldput <Corvid.Runtime: boolean StopExec>"
+    "push 0"->"fieldput <Corvid.Runtime: boolean StopExec>";
+    "fieldput <Corvid.Runtime: boolean StopExec>"->"load.r r0";
+    "new java.lang.String"
+    "load.r r0"->"new java.lang.String";
+    "dup1.r"
+    "new java.lang.String"->"dup1.r";
+    "specialinvoke <java.lang.String: void <init>()>"
+    "dup1.r"->"specialinvoke <java.lang.String: void <init>()>";
+    "fieldput <Corvid.Runtime: java.lang.String KBName>"
+    "specialinvoke <java.lang.String: void <init>()>"->"fieldput <Corvid.Runtime: java.lang.String KBName>";
+    "fieldput <Corvid.Runtime: java.lang.String KBName>"->"load.r r0";
+    "load.r r0"->"new java.lang.String";
+    "new java.lang.String"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.lang.String: void <init>()>";
+    "fieldput <Corvid.Runtime: java.lang.String KBBase>"
+    "specialinvoke <java.lang.String: void <init>()>"->"fieldput <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldput <Corvid.Runtime: java.lang.String KBBase>"->"load.r r0";
+    "push 700"
+    "load.r r0"->"push 700";
+    "fieldput <Corvid.Runtime: int appletWidth>"
+    "push 700"->"fieldput <Corvid.Runtime: int appletWidth>";
+    "fieldput <Corvid.Runtime: int appletWidth>"->"load.r r0";
+    "load.r r0"->"push -1";
+    "fieldput <Corvid.Runtime: int useAppletWidth>"
+    "push -1"->"fieldput <Corvid.Runtime: int useAppletWidth>";
+    "fieldput <Corvid.Runtime: int useAppletWidth>"->"load.r r0";
+    "load.r r0"->"new java.lang.String";
+    "new java.lang.String"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.lang.String: void <init>()>";
+    "fieldput <Corvid.Runtime: java.lang.String TraceAppFlag>"
+    "specialinvoke <java.lang.String: void <init>()>"->"fieldput <Corvid.Runtime: java.lang.String TraceAppFlag>";
+    "fieldput <Corvid.Runtime: java.lang.String TraceAppFlag>"->"load.r r0";
+    "push null"
+    "load.r r0"->"push null";
+    "fieldput <Corvid.Runtime: Corvid.ExecKBThread runningKBThread>"
+    "push null"->"fieldput <Corvid.Runtime: Corvid.ExecKBThread runningKBThread>";
+    "fieldput <Corvid.Runtime: Corvid.ExecKBThread runningKBThread>"->"load.r r0";
+    "load.r r0"->"push 0";
+    "push 0"->"fieldput <Corvid.Runtime: boolean StopExec>";
+    "fieldput <Corvid.Runtime: boolean StopExec>"->"load.r r0";
+    "load.r r0"->"push 0";
+    "fieldput <Corvid.Runtime: boolean running>"
+    "push 0"->"fieldput <Corvid.Runtime: boolean running>";
+    "fieldput <Corvid.Runtime: boolean running>"->"load.r r0";
+    "load.r r0"->"push \"\"";
+    "fieldput <Corvid.Runtime: java.lang.String origName>"
+    "push \"\""->"fieldput <Corvid.Runtime: java.lang.String origName>";
+    "fieldput <Corvid.Runtime: java.lang.String origName>"->"load.r r0";
+    "load.r r0"->"push 0";
+    "fieldput <Corvid.Runtime: int UndoAtPt>"
+    "push 0"->"fieldput <Corvid.Runtime: int UndoAtPt>";
+    "fieldput <Corvid.Runtime: int UndoAtPt>"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean doUndo>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean doUndo>";
+    "fieldput <Corvid.Runtime: boolean doUndo>"->"load.r r0";
+    "load.r r0"->"push 0";
+    "fieldput <Corvid.Runtime: boolean DoTrace>"
+    "push 0"->"fieldput <Corvid.Runtime: boolean DoTrace>";
+    "fieldput <Corvid.Runtime: boolean DoTrace>"->"load.r r0";
+    "load.r r0"->"push 0";
+    "fieldput <Corvid.Runtime: int displayMode>"
+    "push 0"->"fieldput <Corvid.Runtime: int displayMode>";
+    "fieldput <Corvid.Runtime: int displayMode>"->"load.r r0";
+    "load.r r0"->"push null";
+    "fieldput <Corvid.Runtime: java.applet.Applet traceApp>"
+    "push null"->"fieldput <Corvid.Runtime: java.applet.Applet traceApp>";
+    "fieldput <Corvid.Runtime: java.applet.Applet traceApp>"->"load.r r0";
+    "load.r r0"->"push null";
+    "fieldput <Corvid.Runtime: java.applet.Applet CorvidApp>"
+    "push null"->"fieldput <Corvid.Runtime: java.applet.Applet CorvidApp>";
+    "fieldput <Corvid.Runtime: java.applet.Applet CorvidApp>"->"load.r r0";
+    "load.r r0"->"push null";
+    "fieldput <Corvid.Runtime: java.applet.Applet externAppToCall>"
+    "push null"->"fieldput <Corvid.Runtime: java.applet.Applet externAppToCall>";
+    "fieldput <Corvid.Runtime: java.applet.Applet externAppToCall>"->"load.r r0";
+    "new java.awt.BorderLayout"
+    "load.r r0"->"new java.awt.BorderLayout";
+    "new java.awt.BorderLayout"->"dup1.r";
+    "specialinvoke <java.awt.BorderLayout: void <init>()>"
+    "dup1.r"->"specialinvoke <java.awt.BorderLayout: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.BorderLayout borderLayout1>"
+    "specialinvoke <java.awt.BorderLayout: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.BorderLayout borderLayout1>";
+    "fieldput <Corvid.Runtime: java.awt.BorderLayout borderLayout1>"->"load.r r0";
+    "new java.awt.Panel"
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "specialinvoke <java.awt.Panel: void <init>()>"
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel pnlMain>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel pnlMain>";
+    "fieldput <Corvid.Runtime: java.awt.Panel pnlMain>"->"load.r r0";
+    "load.r r0"->"new java.awt.BorderLayout";
+    "new java.awt.BorderLayout"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.BorderLayout: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.BorderLayout borderLayout2>"
+    "specialinvoke <java.awt.BorderLayout: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.BorderLayout borderLayout2>";
+    "fieldput <Corvid.Runtime: java.awt.BorderLayout borderLayout2>"->"load.r r0";
+    "new java.awt.TextArea"
+    "load.r r0"->"new java.awt.TextArea";
+    "new java.awt.TextArea"->"dup1.r";
+    "specialinvoke <java.awt.TextArea: void <init>()>"
+    "dup1.r"->"specialinvoke <java.awt.TextArea: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.TextArea txtTrace>"
+    "specialinvoke <java.awt.TextArea: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.TextArea txtTrace>";
+    "fieldput <Corvid.Runtime: java.awt.TextArea txtTrace>"->"load.r r0";
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel pnlTitleAuthor>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel pnlTitleAuthor>";
+    "fieldput <Corvid.Runtime: java.awt.Panel pnlTitleAuthor>"->"load.r r0";
+    "new java.awt.Label"
+    "load.r r0"->"new java.awt.Label";
+    "new java.awt.Label"->"dup1.r";
+    "specialinvoke <java.awt.Label: void <init>()>"
+    "dup1.r"->"specialinvoke <java.awt.Label: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Label lblTitle>"
+    "specialinvoke <java.awt.Label: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Label lblTitle>";
+    "fieldput <Corvid.Runtime: java.awt.Label lblTitle>"->"load.r r0";
+    "load.r r0"->"new java.awt.Label";
+    "new java.awt.Label"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Label: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Label lblAuthor>"
+    "specialinvoke <java.awt.Label: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Label lblAuthor>";
+    "fieldput <Corvid.Runtime: java.awt.Label lblAuthor>"->"load.r r0";
+    "load.r r0"->"new java.awt.Label";
+    "new java.awt.Label"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Label: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Label lblOther>"
+    "specialinvoke <java.awt.Label: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Label lblOther>";
+    "fieldput <Corvid.Runtime: java.awt.Label lblOther>"->"load.r r0";
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel panel1>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel panel1>";
+    "fieldput <Corvid.Runtime: java.awt.Panel panel1>"->"load.r r0";
+    "new java.awt.FlowLayout"
+    "load.r r0"->"new java.awt.FlowLayout";
+    "new java.awt.FlowLayout"->"dup1.r";
+    "specialinvoke <java.awt.FlowLayout: void <init>()>"
+    "dup1.r"->"specialinvoke <java.awt.FlowLayout: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.FlowLayout flowLayout1>"
+    "specialinvoke <java.awt.FlowLayout: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.FlowLayout flowLayout1>";
+    "fieldput <Corvid.Runtime: java.awt.FlowLayout flowLayout1>"->"load.r r0";
+    "new java.awt.Button"
+    "load.r r0"->"new java.awt.Button";
+    "new java.awt.Button"->"dup1.r";
+    "specialinvoke <java.awt.Button: void <init>()>"
+    "dup1.r"->"specialinvoke <java.awt.Button: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnStart>"
+    "specialinvoke <java.awt.Button: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Button btnStart>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnStart>"->"load.r r0";
+    "new java.awt.GridLayout"
+    "load.r r0"->"new java.awt.GridLayout";
+    "new java.awt.GridLayout"->"dup1.r";
+    "specialinvoke <java.awt.GridLayout: void <init>()>"
+    "dup1.r"->"specialinvoke <java.awt.GridLayout: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.GridLayout gridLayout1>"
+    "specialinvoke <java.awt.GridLayout: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.GridLayout gridLayout1>";
+    "fieldput <Corvid.Runtime: java.awt.GridLayout gridLayout1>"->"load.r r0";
+    "load.r r0"->"new java.awt.GridLayout";
+    "new java.awt.GridLayout"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.GridLayout: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.GridLayout gridLayout2>"
+    "specialinvoke <java.awt.GridLayout: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.GridLayout gridLayout2>";
+    "fieldput <Corvid.Runtime: java.awt.GridLayout gridLayout2>"->"load.r r0";
+    "new java.awt.ScrollPane"
+    "load.r r0"->"new java.awt.ScrollPane";
+    "new java.awt.ScrollPane"->"dup1.r";
+    "specialinvoke <java.awt.ScrollPane: void <init>()>"
+    "dup1.r"->"specialinvoke <java.awt.ScrollPane: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.ScrollPane scrlMain>"
+    "specialinvoke <java.awt.ScrollPane: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.ScrollPane scrlMain>";
+    "fieldput <Corvid.Runtime: java.awt.ScrollPane scrlMain>"->"load.r r0";
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel pnlAskAll>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel pnlAskAll>";
+    "fieldput <Corvid.Runtime: java.awt.Panel pnlAskAll>"->"load.r r0";
+    "new com.borland.jbcl.layout.VerticalFlowLayout"
+    "load.r r0"->"new com.borland.jbcl.layout.VerticalFlowLayout";
+    "new com.borland.jbcl.layout.VerticalFlowLayout"->"dup1.r";
+    "dup1.r"->"push 0";
+    "push 5"
+    "push 0"->"push 5";
+    "push 5"->"push 0";
+    "push 0"->"push 1";
+    "push 1"->"push 1";
+    "specialinvoke <com.borland.jbcl.layout.VerticalFlowLayout: void <init>(int,int,int,boolean,boolean)>"
+    "push 1"->"specialinvoke <com.borland.jbcl.layout.VerticalFlowLayout: void <init>(int,int,int,boolean,boolean)>";
+    "fieldput <Corvid.Runtime: com.borland.jbcl.layout.VerticalFlowLayout vflAskAll>"
+    "specialinvoke <com.borland.jbcl.layout.VerticalFlowLayout: void <init>(int,int,int,boolean,boolean)>"->"fieldput <Corvid.Runtime: com.borland.jbcl.layout.VerticalFlowLayout vflAskAll>";
+    "fieldput <Corvid.Runtime: com.borland.jbcl.layout.VerticalFlowLayout vflAskAll>"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean defaultAddBack>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean defaultAddBack>";
+    "fieldput <Corvid.Runtime: boolean defaultAddBack>"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean defaultAddRestart>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean defaultAddRestart>";
+    "fieldput <Corvid.Runtime: boolean defaultAddRestart>"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean addBack>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean addBack>";
+    "fieldput <Corvid.Runtime: boolean addBack>"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean addRestart>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean addRestart>";
+    "fieldput <Corvid.Runtime: boolean addRestart>"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean addCorvidLink>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean addCorvidLink>";
+    "fieldput <Corvid.Runtime: boolean addCorvidLink>"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean addOK>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean addOK>";
+    "fieldput <Corvid.Runtime: boolean addOK>"->"load.r r0";
+    "load.r r0"->"push 1";
+    "fieldput <Corvid.Runtime: boolean addOKNotLast>"
+    "push 1"->"fieldput <Corvid.Runtime: boolean addOKNotLast>";
+    "fieldput <Corvid.Runtime: boolean addOKNotLast>"->"load.r r0";
+    "load.r r0"->"push 0";
+    "fieldput <Corvid.Runtime: int numRows>"
+    "push 0"->"fieldput <Corvid.Runtime: int numRows>";
+    "fieldput <Corvid.Runtime: int numRows>"->"load.r r0";
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel pnlOKBtn>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel pnlOKBtn>";
+    "fieldput <Corvid.Runtime: java.awt.Panel pnlOKBtn>"->"load.r r0";
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel OKPanel>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel OKPanel>";
+    "fieldput <Corvid.Runtime: java.awt.Panel OKPanel>"->"load.r r0";
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel OptPanel>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel OptPanel>";
+    "fieldput <Corvid.Runtime: java.awt.Panel OptPanel>"->"load.r r0";
+    "load.r r0"->"new java.awt.FlowLayout";
+    "new java.awt.FlowLayout"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.FlowLayout: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.FlowLayout flOKBtn>"
+    "specialinvoke <java.awt.FlowLayout: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.FlowLayout flOKBtn>";
+    "fieldput <Corvid.Runtime: java.awt.FlowLayout flOKBtn>"->"load.r r0";
+    "load.r r0"->"new java.awt.Button";
+    "new java.awt.Button"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Button: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnAskDataIn>"
+    "specialinvoke <java.awt.Button: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Button btnAskDataIn>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnAskDataIn>"->"load.r r0";
+    "load.r r0"->"new java.awt.Button";
+    "new java.awt.Button"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Button: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnUndo>"
+    "specialinvoke <java.awt.Button: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Button btnUndo>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnUndo>"->"load.r r0";
+    "load.r r0"->"new java.awt.Button";
+    "new java.awt.Button"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Button: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnRestart>"
+    "specialinvoke <java.awt.Button: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Button btnRestart>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnRestart>"->"load.r r0";
+    "load.r r0"->"new java.awt.Button";
+    "new java.awt.Button"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Button: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnResDone>"
+    "specialinvoke <java.awt.Button: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Button btnResDone>";
+    "fieldput <Corvid.Runtime: java.awt.Button btnResDone>"->"load.r r0";
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel UndoPanel>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel UndoPanel>";
+    "fieldput <Corvid.Runtime: java.awt.Panel UndoPanel>"->"load.r r0";
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel RestartPanel>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel RestartPanel>";
+    "fieldput <Corvid.Runtime: java.awt.Panel RestartPanel>"->"load.r r0";
+    "load.r r0"->"new java.awt.Panel";
+    "new java.awt.Panel"->"dup1.r";
+    "dup1.r"->"specialinvoke <java.awt.Panel: void <init>()>";
+    "fieldput <Corvid.Runtime: java.awt.Panel SpecialActionPanel>"
+    "specialinvoke <java.awt.Panel: void <init>()>"->"fieldput <Corvid.Runtime: java.awt.Panel SpecialActionPanel>";
+    "fieldput <Corvid.Runtime: java.awt.Panel SpecialActionPanel>"->"load.r r0";
+    "push \"   OK   \""
+    "load.r r0"->"push \"   OK   \"";
+    "fieldput <Corvid.Runtime: java.lang.String OKbtnLabel>"
+    "push \"   OK   \""->"fieldput <Corvid.Runtime: java.lang.String OKbtnLabel>";
+    "fieldput <Corvid.Runtime: java.lang.String OKbtnLabel>"->"load.r r0";
+    "push \" Back \""
+    "load.r r0"->"push \" Back \"";
+    "fieldput <Corvid.Runtime: java.lang.String BACKbtnLabel>"
+    "push \" Back \""->"fieldput <Corvid.Runtime: java.lang.String BACKbtnLabel>";
+    "fieldput <Corvid.Runtime: java.lang.String BACKbtnLabel>"->"load.r r0";
+    "push \" Restart \""
+    "load.r r0"->"push \" Restart \"";
+    "fieldput <Corvid.Runtime: java.lang.String RESTARTbtnLabel>"
+    "push \" Restart \""->"fieldput <Corvid.Runtime: java.lang.String RESTARTbtnLabel>";
+    "fieldput <Corvid.Runtime: java.lang.String RESTARTbtnLabel>"->"load.r r0";
+    "load.r r0"->"push 0";
+    "fieldput <Corvid.Runtime: boolean waitingForExtData>"
+    "push 0"->"fieldput <Corvid.Runtime: boolean waitingForExtData>";
+    "fieldput <Corvid.Runtime: boolean waitingForExtData>"->"load.r r0";
+    "load.r r0"->"push \"\"";
+    "fieldput <Corvid.Runtime: java.lang.String extReturnedData>"
+    "push \"\""->"fieldput <Corvid.Runtime: java.lang.String extReturnedData>";
+    "fieldput <Corvid.Runtime: java.lang.String extReturnedData>"->"load.r r0";
+    "load.r r0"->"push 0";
+    "fieldput <Corvid.Runtime: int otherAppCount>"
+    "push 0"->"fieldput <Corvid.Runtime: int otherAppCount>";
+    "fieldput <Corvid.Runtime: int otherAppCount>"->"load.r r0";
+    "load.r r0"->"push 0";
+    "fieldput <Corvid.Runtime: int numTraceAttempts>"
+    "push 0"->"fieldput <Corvid.Runtime: int numTraceAttempts>";
+    "fieldput <Corvid.Runtime: int numTraceAttempts>"->"load.r r0";
+    "fieldget <Corvid.Runtime: boolean isStandalone>"
+    "load.r r0"->"fieldget <Corvid.Runtime: boolean isStandalone>";
+    "ifne load.r r0"
+    "fieldget <Corvid.Runtime: boolean isStandalone>"->"ifne load.r r0";
+    "ifne load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "load.r r0"->"virtualinvoke <java.applet.Applet: java.applet.AppletContext getAppletContext()>";
+    "push \"CorvidRuntime\""
+    "virtualinvoke <java.applet.Applet: java.applet.AppletContext getAppletContext()>"->"push \"CorvidRuntime\"";
+    "interfaceinvoke <java.applet.AppletContext: java.applet.Applet getApplet(java.lang.String)> 1"
+    "push \"CorvidRuntime\""->"interfaceinvoke <java.applet.AppletContext: java.applet.Applet getApplet(java.lang.String)> 1";
+    "interfaceinvoke <java.applet.AppletContext: java.applet.Applet getApplet(java.lang.String)> 1"->"fieldput <Corvid.Runtime: java.applet.Applet CorvidApp>";
+    "fieldput <Corvid.Runtime: java.applet.Applet CorvidApp>"->"load.r r0";
+    "push \" \""
+    "load.r r0"->"push \" \"";
+    "push \" \""->"fieldput <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldput <Corvid.Runtime: java.lang.String KBBase>"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "push \"KBBASE\""
+    "load.r r0"->"push \"KBBASE\"";
+    "push \"KBBASE\""->"push \" \"";
+    "virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>"
+    "push \" \""->"virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>";
+    "virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>"->"fieldput <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldput <Corvid.Runtime: java.lang.String KBBase>"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBBase>";
+    "virtualinvoke <java.lang.String: int length()>"
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"->"virtualinvoke <java.lang.String: int length()>";
+    "ifle load.r r0"
+    "virtualinvoke <java.lang.String: int length()>"->"ifle load.r r0";
+    "ifle load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"->"push \" \"";
+    "push \"%20\""
+    "push \" \""->"push \"%20\"";
+    "virtualinvoke <Corvid.Runtime: java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)>"
+    "push \"%20\""->"virtualinvoke <Corvid.Runtime: java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)>";
+    "virtualinvoke <Corvid.Runtime: java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)>"->"fieldput <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldput <Corvid.Runtime: java.lang.String KBBase>"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"->"virtualinvoke <java.lang.String: int length()>";
+    "virtualinvoke <java.lang.String: int length()>"->"ifne load.r r0";
+    "ifne load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "virtualinvoke <java.applet.Applet: java.net.URL getCodeBase()>"
+    "load.r r0"->"virtualinvoke <java.applet.Applet: java.net.URL getCodeBase()>";
+    "fieldput <Corvid.Runtime: java.net.URL baseURL>"
+    "virtualinvoke <java.applet.Applet: java.net.URL getCodeBase()>"->"fieldput <Corvid.Runtime: java.net.URL baseURL>";
+    "fieldput <Corvid.Runtime: java.net.URL baseURL>"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "fieldget <Corvid.Runtime: java.net.URL baseURL>"
+    "load.r r0"->"fieldget <Corvid.Runtime: java.net.URL baseURL>";
+    "virtualinvoke <java.net.URL: java.lang.String toString()>"
+    "fieldget <Corvid.Runtime: java.net.URL baseURL>"->"virtualinvoke <java.net.URL: java.lang.String toString()>";
+    "virtualinvoke <java.net.URL: java.lang.String toString()>"->"fieldput <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldput <Corvid.Runtime: java.lang.String KBBase>"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "push \"KBNAME\""
+    "load.r r0"->"push \"KBNAME\"";
+    "push \"null\""
+    "push \"KBNAME\""->"push \"null\"";
+    "push \"null\""->"virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>";
+    "virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>"->"fieldput <Corvid.Runtime: java.lang.String KBName>";
+    "fieldput <Corvid.Runtime: java.lang.String KBName>"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "fieldget <Corvid.Runtime: java.lang.String KBName>"
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBName>";
+    "fieldget <Corvid.Runtime: java.lang.String KBName>"->"push \" \"";
+    "push \" \""->"push \"%20\"";
+    "push \"%20\""->"virtualinvoke <Corvid.Runtime: java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)>";
+    "virtualinvoke <Corvid.Runtime: java.lang.String replace(java.lang.String,java.lang.String,java.lang.String)>"->"fieldput <Corvid.Runtime: java.lang.String KBName>";
+    "fieldput <Corvid.Runtime: java.lang.String KBName>"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBName>";
+    "specialinvoke <Corvid.Runtime: java.lang.String _$7707(java.lang.String)>"
+    "fieldget <Corvid.Runtime: java.lang.String KBName>"->"specialinvoke <Corvid.Runtime: java.lang.String _$7707(java.lang.String)>";
+    "specialinvoke <Corvid.Runtime: java.lang.String _$7707(java.lang.String)>"->"fieldput <Corvid.Runtime: java.lang.String KBName>";
+    "fieldput <Corvid.Runtime: java.lang.String KBName>"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "fieldget <Corvid.Runtime: boolean useUncompressedFile>"
+    "load.r r0"->"fieldget <Corvid.Runtime: boolean useUncompressedFile>";
+    "fieldget <Corvid.Runtime: boolean useUncompressedFile>"->"push 1";
+    "push 1"->"ifcmpne.b load.r r0";
+    "ifcmpne.b load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBName>";
+    "fieldget <Corvid.Runtime: java.lang.String KBName>"->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "push \"u\""
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"push \"u\"";
+    "push \"u\""->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>";
+    "virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>"->"fieldput <Corvid.Runtime: java.lang.String KBName>";
+    "fieldput <Corvid.Runtime: java.lang.String KBName>"->"load.r r0";
+    "push \"KBWIDTH\""
+    "load.r r0"->"push \"KBWIDTH\"";
+    "push \"700\""
+    "push \"KBWIDTH\""->"push \"700\"";
+    "push \"700\""->"virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>";
+    "virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>"->"store.r $r87";
+    "store.r $r87"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "load.r r0"->"load.r r0";
+    "push \"TraceApplet\""
+    "load.r r0"->"push \"TraceApplet\"";
+    "push \"NO\""
+    "push \"TraceApplet\""->"push \"NO\"";
+    "push \"NO\""->"virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>";
+    "virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>"->"fieldput <Corvid.Runtime: java.lang.String TraceAppFlag>";
+    "fieldput <Corvid.Runtime: java.lang.String TraceAppFlag>"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "new java.lang.Long"
+    "load.r r0"->"new java.lang.Long";
+    "new java.lang.Long"->"dup1.r";
+    "load.r $r87"
+    "dup1.r"->"load.r $r87";
+    "specialinvoke <java.lang.Long: void <init>(java.lang.String)>"
+    "load.r $r87"->"specialinvoke <java.lang.Long: void <init>(java.lang.String)>";
+    "virtualinvoke <java.lang.Long: int intValue()>"
+    "specialinvoke <java.lang.Long: void <init>(java.lang.String)>"->"virtualinvoke <java.lang.Long: int intValue()>";
+    "virtualinvoke <java.lang.Long: int intValue()>"->"fieldput <Corvid.Runtime: int appletWidth>";
+    "fieldput <Corvid.Runtime: int appletWidth>"->"load.r r0";
+    "push \"baseURL = \""
+    "load.r r0"->"push \"baseURL = \"";
+    "push \"baseURL = \""->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.net.URL baseURL>";
+    "fieldget <Corvid.Runtime: java.net.URL baseURL>"->"virtualinvoke <java.net.URL: java.lang.String toString()>";
+    "virtualinvoke <java.net.URL: java.lang.String toString()>"->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>";
+    "virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>"->"virtualinvoke <Corvid.Runtime: void ShowTrace(java.lang.String)>";
+    "virtualinvoke <Corvid.Runtime: void ShowTrace(java.lang.String)>"->"load.r r0";
+    "push \"TRACE\""
+    "load.r r0"->"push \"TRACE\"";
+    "push \"TRACE\""->"push \"NO\"";
+    "push \"NO\""->"virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>";
+    "push \"YES\""
+    "virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>"->"push \"YES\"";
+    "push \"YES\""->"virtualinvoke <java.lang.String: boolean equalsIgnoreCase(java.lang.String)>";
+    "ifeq load.r r0"
+    "virtualinvoke <java.lang.String: boolean equalsIgnoreCase(java.lang.String)>"->"ifeq load.r r0";
+    "ifeq load.r r0"->"load.r r0";
+    "load.r r0"->"push 1";
+    "push 1"->"fieldput <Corvid.Runtime: boolean DoTrace>";
+    "fieldput <Corvid.Runtime: boolean DoTrace>"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "fieldget <Corvid.Runtime: java.awt.Panel pnlMain>"
+    "load.r r0"->"fieldget <Corvid.Runtime: java.awt.Panel pnlMain>";
+    "virtualinvoke <java.awt.Container: void removeAll()>"
+    "fieldget <Corvid.Runtime: java.awt.Panel pnlMain>"->"virtualinvoke <java.awt.Container: void removeAll()>";
+    "virtualinvoke <java.awt.Container: void removeAll()>"->"load.r r0";
+    "specialinvoke <Corvid.Runtime: void _$7714()>"
+    "load.r r0"->"specialinvoke <Corvid.Runtime: void _$7714()>";
+    "specialinvoke <Corvid.Runtime: void _$7714()>"->"goto load.r r0";
+    "goto load.r r0"->"load.r r0";
+    "virtualinvoke <Corvid.Runtime: void myStart()>"
+    "load.r r0"->"virtualinvoke <Corvid.Runtime: void myStart()>";
+    "virtualinvoke <Corvid.Runtime: void myStart()>"->"return";
+    "virtualinvoke <java.lang.Throwable: void printStackTrace()>"
+    "specialinvoke <Corvid.Runtime: void _$7714()>"->"virtualinvoke <java.lang.Throwable: void printStackTrace()>";
+    "ifeq load.r r0"->"load.r r0";
+    "load.r r0"->"push 0";
+    "push 0"->"fieldput <Corvid.Runtime: boolean DoTrace>";
+    "store.r $r79"
+    "virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>"->"store.r $r79";
+    "virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>"->"store.r $r79";
+    "specialinvoke <Corvid.Runtime: java.lang.String _$7707(java.lang.String)>"->"store.r $r79";
+    "store.r $r79"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBName>";
+    "fieldget <Corvid.Runtime: java.lang.String KBName>"->"virtualinvoke <java.lang.String: int length()>";
+    "virtualinvoke <java.lang.String: int length()>"->"ifne load.r r0";
+    "ifne load.r r0"->"staticget <java.lang.System: java.io.PrintStream out>";
+    "push \"ERROR: No KBNAME PARAM specified\""
+    "staticget <java.lang.System: java.io.PrintStream out>"->"push \"ERROR: No KBNAME PARAM specified\"";
+    "push \"ERROR: No KBNAME PARAM specified\""->"virtualinvoke <java.io.PrintStream: void print(java.lang.String)>";
+    "virtualinvoke <java.io.PrintStream: void print(java.lang.String)>"->"return";
+    "virtualinvoke <java.net.URL: java.lang.String toString()>"->"store.r $r87";
+    "store.r $r87"->"staticget <java.lang.System: java.io.PrintStream out>";
+    "push \"ERROR: Error setting KBBASE  : \""
+    "staticget <java.lang.System: java.io.PrintStream out>"->"push \"ERROR: Error setting KBBASE  : \"";
+    "push \"ERROR: Error setting KBBASE  : \""->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>";
+    "virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>"->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "push \"\n\""
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"push \"\n\"";
+    "push \"\n\""->"staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>";
+    "staticinvoke <java.lang.String: java.lang.String valueOf(java.lang.Object)>"->"virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>";
+    "virtualinvoke <java.lang.String: java.lang.String concat(java.lang.String)>"->"virtualinvoke <java.io.PrintStream: void print(java.lang.String)>";
+    "virtualinvoke <java.io.PrintStream: void print(java.lang.String)>"->"return";
+    "ifne load.r r0"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBBase>";
+    "virtualinvoke <java.lang.String: java.lang.String toLowerCase()>"
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"->"virtualinvoke <java.lang.String: java.lang.String toLowerCase()>";
+    "push \"http:/\""
+    "virtualinvoke <java.lang.String: java.lang.String toLowerCase()>"->"push \"http:/\"";
+    "virtualinvoke <java.lang.String: boolean startsWith(java.lang.String)>"
+    "push \"http:/\""->"virtualinvoke <java.lang.String: boolean startsWith(java.lang.String)>";
+    "virtualinvoke <java.lang.String: boolean startsWith(java.lang.String)>"->"ifeq load.r r0";
+    "ifeq load.r r0"->"load.r r0";
+    "new java.net.URL"
+    "load.r r0"->"new java.net.URL";
+    "new java.net.URL"->"dup1.r";
+    "dup1.r"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBBase>";
+    "specialinvoke <java.net.URL: void <init>(java.lang.String)>"
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"->"specialinvoke <java.net.URL: void <init>(java.lang.String)>";
+    "specialinvoke <java.net.URL: void <init>(java.lang.String)>"->"fieldput <Corvid.Runtime: java.net.URL baseURL>";
+    "fieldput <Corvid.Runtime: java.net.URL baseURL>"->"goto load.r r0";
+    "ifeq load.r r0"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"->"virtualinvoke <java.lang.String: java.lang.String toLowerCase()>";
+    "push \"file:/\""
+    "virtualinvoke <java.lang.String: java.lang.String toLowerCase()>"->"push \"file:/\"";
+    "push \"file:/\""->"virtualinvoke <java.lang.String: boolean startsWith(java.lang.String)>";
+    "virtualinvoke <java.lang.String: boolean startsWith(java.lang.String)>"->"ifeq load.r r0";
+    "ifeq load.r r0"->"load.r r0";
+    "load.r r0"->"new java.net.URL";
+    "new java.net.URL"->"dup1.r";
+    "dup1.r"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBBase>";
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"->"specialinvoke <java.net.URL: void <init>(java.lang.String)>";
+    "specialinvoke <java.net.URL: void <init>(java.lang.String)>"->"fieldput <Corvid.Runtime: java.net.URL baseURL>";
+    "fieldput <Corvid.Runtime: java.net.URL baseURL>"->"goto load.r r0";
+    "ifeq load.r r0"->"load.r r0";
+    "load.r r0"->"new java.net.URL";
+    "new java.net.URL"->"dup1.r";
+    "dup1.r"->"load.r r0";
+    "load.r r0"->"virtualinvoke <java.applet.Applet: java.net.URL getCodeBase()>";
+    "virtualinvoke <java.applet.Applet: java.net.URL getCodeBase()>"->"load.r r0";
+    "load.r r0"->"fieldget <Corvid.Runtime: java.lang.String KBBase>";
+    "specialinvoke <java.net.URL: void <init>(java.net.URL,java.lang.String)>"
+    "fieldget <Corvid.Runtime: java.lang.String KBBase>"->"specialinvoke <java.net.URL: void <init>(java.net.URL,java.lang.String)>";
+    "specialinvoke <java.net.URL: void <init>(java.net.URL,java.lang.String)>"->"fieldput <Corvid.Runtime: java.net.URL baseURL>";
+    "virtualinvoke <Corvid.Runtime: java.lang.String getParameter(java.lang.String,java.lang.String)>"->"store.r $r79";
+    "store.r $r79"->"load.r r0";
+    "load.r r0"->"push \" \"";
+    "push \" \""->"fieldput <Corvid.Runtime: java.lang.String KBBase>";
+    "virtualinvoke <java.applet.Applet: java.applet.AppletContext getAppletContext()>"->"store.r $r79";
+    "push 1"->"store.r $r79";
+}

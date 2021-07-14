@@ -1,0 +1,590 @@
+digraph "" {
+    "r0 := @this: x.s"
+    "new java.lang.String"
+    "r0 := @this: x.s"->"new java.lang.String";
+    "push \")r:,\u000b\u0001@\""
+    "new java.lang.String"->"push \")r:,\u000b\u0001@\"";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"
+    "push \")r:,\u000b\u0001@\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"J$\u0003 ~-0I>7b\u0006\u0017\'K\u0019\u0007\u001d#u\""
+    "new java.lang.String"->"push \"J$\u0003 ~-0I>7b\u0006\u0017\'K\u0019\u0007\u001d#u\"";
+    "push \"J$\u0003 ~-0I>7b\u0006\u0017\'K\u0019\u0007\u001d#u\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \".=\u0005\\\"X\""
+    "new java.lang.String"->"push \".=\u0005\\\"X\"";
+    "push \".=\u0005\\\"X\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"w1;5\t\u0014\""
+    "new java.lang.String"->"push \"w1;5\t\u0014\"";
+    "push \"w1;5\t\u0014\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0008\u0012%%y\""
+    "new java.lang.String"->"push \"\u0008\u0012%%y\"";
+    "push \"\u0008\u0012%%y\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"g\u00104<t\u0014\u0016j;)\u0019\u001d0)%M2\u00004X\""
+    "new java.lang.String"->"push \"g\u00104<t\u0014\u0016j;)\u0019\u001d0)%M2\u00004X\"";
+    "push \"g\u00104<t\u0014\u0016j;)\u0019\u001d0)%M2\u00004X\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0003\\69\u0011}j\""
+    "new java.lang.String"->"push \"\u0003\\69\u0011}j\"";
+    "push \"\u0003\\69\u0011}j\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0003\u001e.3\u0001c\u0012=b!d)P-\u00025?{\""
+    "new java.lang.String"->"push \"\u0003\u001e.3\u0001c\u0012=b!d)P-\u00025?{\"";
+    "push \"\u0003\u001e.3\u0001c\u0012=b!d)P-\u00025?{\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \" s9\u0000\u0007\u0005t\""
+    "new java.lang.String"->"push \" s9\u0000\u0007\u0005t\"";
+    "push \" s9\u0000\u0007\u0005t\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"K\\\"*\u0019S\""
+    "new java.lang.String"->"push \"K\\\"*\u0019S\"";
+    "push \"K\\\"*\u0019S\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0008\u000e\u0010\u0004C- *$n\""
+    "new java.lang.String"->"push \"\u0008\u000e\u0010\u0004C- *$n\"";
+    "push \"\u0008\u000e\u0010\u0004C- *$n\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"j!&%>\u0014 PK\u0005\u0003\u0008U\""
+    "new java.lang.String"->"push \"j!&%>\u0014 PK\u0005\u0003\u0008U\"";
+    "push \"j!&%>\u0014 PK\u0005\u0003\u0008U\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"U4\t\u0004\u000eR\""
+    "new java.lang.String"->"push \"U4\t\u0004\u000eR\"";
+    "push \"U4\t\u0004\u000eR\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\n \'a,}8u-sE\""
+    "new java.lang.String"->"push \"\n \'a,}8u-sE\"";
+    "push \"\n \'a,}8u-sE\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"//\u0007>Q\""
+    "new java.lang.String"->"push \"//\u0007>Q\"";
+    "push \"//\u0007>Q\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\\\"m\u0013uw*\u001f$V5\'E0/?\u001fQ\""
+    "new java.lang.String"->"push \"\\\"m\u0013uw*\u001f$V5\'E0/?\u001fQ\"";
+    "push \"\\\"m\u0013uw*\u001f$V5\'E0/?\u001fQ\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \".\u0010/w\\\"\u000e98x\""
+    "new java.lang.String"->"push \".\u0010/w\\\"\u000e98x\"";
+    "push \".\u0010/w\\\"\u000e98x\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"T\u0019\'/>6&)O!\u0010\u0015J\""
+    "new java.lang.String"->"push \"T\u0019\'/>6&)O!\u0010\u0015J\"";
+    "push \"T\u0019\'/>6&)O!\u0010\u0015J\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "load.r r0"
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"load.r r0";
+    "push \"H\""
+    "load.r r0"->"push \"H\"";
+    "push \"H\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "virtualinvoke <x.s: java.lang.String getParameter(java.lang.String)>"
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"virtualinvoke <x.s: java.lang.String getParameter(java.lang.String)>";
+    "staticput <x.l: java.lang.String ip>"
+    "virtualinvoke <x.s: java.lang.String getParameter(java.lang.String)>"->"staticput <x.l: java.lang.String ip>";
+    "staticput <x.l: java.lang.String ip>"->"load.r r0";
+    "push \"G\""
+    "load.r r0"->"push \"G\"";
+    "push \"G\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"virtualinvoke <x.s: java.lang.String getParameter(java.lang.String)>";
+    "staticput <x.l: java.lang.String file>"
+    "virtualinvoke <x.s: java.lang.String getParameter(java.lang.String)>"->"staticput <x.l: java.lang.String file>";
+    "staticput <x.l: java.lang.String file>"->"new java.lang.String";
+    "push \"73>9B\u0016a\u0018\u001f>>+;K\u0012\u001d0\u001cK\""
+    "new java.lang.String"->"push \"73>9B\u0016a\u0018\u001f>>+;K\u0012\u001d0\u001cK\"";
+    "push \"73>9B\u0016a\u0018\u001f>>+;K\u0012\u001d0\u001cK\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \";|x73\u001c,\u0013U\u0008!?\u0015{\""
+    "new java.lang.String"->"push \";|x73\u001c,\u0013U\u0008!?\u0015{\"";
+    "push \";|x73\u001c,\u0013U\u0008!?\u0015{\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u001c\u001c\n#E,3\u0002 C\""
+    "new java.lang.String"->"push \"\u001c\u001c\n#E,3\u0002 C\"";
+    "push \"\u001c\u001c\n#E,3\u0002 C\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"4b\u0014\u0001\u0001}F\""
+    "new java.lang.String"->"push \"4b\u0014\u0001\u0001}F\"";
+    "push \"4b\u0014\u0001\u0001}F\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"%0\u0019u\u001e\u001d\u001129\u0012n\u0017\u0016&\u007f@\""
+    "new java.lang.String"->"push \"%0\u0019u\u001e\u001d\u001129\u0012n\u0017\u0016&\u007f@\"";
+    "push \"%0\u0019u\u001e\u001d\u001129\u0012n\u0017\u0016&\u007f@\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u000fn1\u007f\u00134\u0008\u0011o\""
+    "new java.lang.String"->"push \"\u000fn1\u007f\u00134\u0008\u0011o\"";
+    "push \"\u000fn1\u007f\u00134\u0008\u0011o\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"H+.6*j8\u0007)\u0012\u0015\""
+    "new java.lang.String"->"push \"H+.6*j8\u0007)\u0012\u0015\"";
+    "push \"H+.6*j8\u0007)\u0012\u0015\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0016\u001b/+Bp\\2\t3\u0007{Cg\u0004\u0005\\\"-\u0012\""
+    "new java.lang.String"->"push \"\u0016\u001b/+Bp\\2\t3\u0007{Cg\u0004\u0005\\\"-\u0012\"";
+    "push \"\u0016\u001b/+Bp\\2\t3\u0007{Cg\u0004\u0005\\\"-\u0012\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\'/\u001d5\u0015*Z\u001d-\u0000\u0017%>f\u0018\r\n<U\""
+    "new java.lang.String"->"push \"\'/\u001d5\u0015*Z\u001d-\u0000\u0017%>f\u0018\r\n<U\"";
+    "push \"\'/\u001d5\u0015*Z\u001d-\u0000\u0017%>f\u0018\r\n<U\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"G1\n)8P\""
+    "new java.lang.String"->"push \"G1\n)8P\"";
+    "push \"G1\n)8P\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"(#\u00030j\u0005&*)3\u0014X\""
+    "new java.lang.String"->"push \"(#\u00030j\u0005&*)3\u0014X\"";
+    "push \"(#\u00030j\u0005&*)3\u0014X\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u001a1f\u001b\u0017\u0016\r-$\u0007i*\n\t\u001dL\""
+    "new java.lang.String"->"push \"\u001a1f\u001b\u0017\u0016\r-$\u0007i*\n\t\u001dL\"";
+    "push \"\u001a1f\u001b\u0017\u0016\r-$\u0007i*\n\t\u001dL\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"0\u0012\u000egT/\t\u001d37j\""
+    "new java.lang.String"->"push \"0\u0012\u000egT/\t\u001d37j\"";
+    "push \"0\u0012\u000egT/\t\u001d37j\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"P\u001b\u0008\u0014#\u0011\""
+    "new java.lang.String"->"push \"P\u001b\u0008\u0014#\u0011\"";
+    "push \"P\u001b\u0008\u0014#\u0011\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"eB\u0015\u0015\u00046\u000e\\\"u5?#,R\""
+    "new java.lang.String"->"push \"eB\u0015\u0015\u00046\u000e\\\"u5?#,R\"";
+    "push \"eB\u0015\u0015\u00046\u000e\\\"u5?#,R\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0005\u00141c 4o\u0001\u0012\\\"&\u001fAm\u0014\f!if\""
+    "new java.lang.String"->"push \"\u0005\u00141c 4o\u0001\u0012\\\"&\u001fAm\u0014\f!if\"";
+    "push \"\u0005\u00141c 4o\u0001\u0012\\\"&\u001fAm\u0014\f!if\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"*eYh7\u0005\u000f\u0017b\""
+    "new java.lang.String"->"push \"*eYh7\u0005\u000f\u0017b\"";
+    "push \"*eYh7\u0005\u000f\u0017b\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"McQw>\'P*p\""
+    "new java.lang.String"->"push \"McQw>\'P*p\"";
+    "push \"McQw>\'P*p\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"load.r r0";
+    "specialinvoke <x.s: java.lang.Object f()>"
+    "load.r r0"->"specialinvoke <x.s: java.lang.Object f()>";
+    "store.r r1"
+    "specialinvoke <x.s: java.lang.Object f()>"->"store.r r1";
+    "staticget <x.e: java.lang.String strbuf>"
+    "store.r r1"->"staticget <x.e: java.lang.String strbuf>";
+    "push 90"
+    "staticget <x.e: java.lang.String strbuf>"->"push 90";
+    "push 65"
+    "push 90"->"push 65";
+    "virtualinvoke <java.lang.String: java.lang.String replace(char,char)>"
+    "push 65"->"virtualinvoke <java.lang.String: java.lang.String replace(char,char)>";
+    "staticput <x.e: java.lang.String strbuf>"
+    "virtualinvoke <java.lang.String: java.lang.String replace(char,char)>"->"staticput <x.e: java.lang.String strbuf>";
+    "staticput <x.e: java.lang.String strbuf>"->"staticget <x.e: java.lang.String strbuf>";
+    "push 89"
+    "staticget <x.e: java.lang.String strbuf>"->"push 89";
+    "push 66"
+    "push 89"->"push 66";
+    "push 66"->"virtualinvoke <java.lang.String: java.lang.String replace(char,char)>";
+    "virtualinvoke <java.lang.String: java.lang.String replace(char,char)>"->"staticput <x.e: java.lang.String strbuf>";
+    "staticput <x.e: java.lang.String strbuf>"->"staticget <x.e: java.lang.String strbuf>";
+    "push 88"
+    "staticget <x.e: java.lang.String strbuf>"->"push 88";
+    "push 67"
+    "push 88"->"push 67";
+    "push 67"->"virtualinvoke <java.lang.String: java.lang.String replace(char,char)>";
+    "virtualinvoke <java.lang.String: java.lang.String replace(char,char)>"->"staticput <x.e: java.lang.String strbuf>";
+    "staticput <x.e: java.lang.String strbuf>"->"staticget <x.e: java.lang.String strbuf>";
+    "push 87"
+    "staticget <x.e: java.lang.String strbuf>"->"push 87";
+    "push 68"
+    "push 87"->"push 68";
+    "push 68"->"virtualinvoke <java.lang.String: java.lang.String replace(char,char)>";
+    "virtualinvoke <java.lang.String: java.lang.String replace(char,char)>"->"staticput <x.e: java.lang.String strbuf>";
+    "staticput <x.e: java.lang.String strbuf>"->"staticget <x.e: java.lang.String strbuf>";
+    "push 86"
+    "staticget <x.e: java.lang.String strbuf>"->"push 86";
+    "push 69"
+    "push 86"->"push 69";
+    "push 69"->"virtualinvoke <java.lang.String: java.lang.String replace(char,char)>";
+    "virtualinvoke <java.lang.String: java.lang.String replace(char,char)>"->"staticput <x.e: java.lang.String strbuf>";
+    "staticput <x.e: java.lang.String strbuf>"->"staticget <x.e: java.lang.String strbuf>";
+    "push 85"
+    "staticget <x.e: java.lang.String strbuf>"->"push 85";
+    "push 70"
+    "push 85"->"push 70";
+    "push 70"->"virtualinvoke <java.lang.String: java.lang.String replace(char,char)>";
+    "virtualinvoke <java.lang.String: java.lang.String replace(char,char)>"->"staticput <x.e: java.lang.String strbuf>";
+    "staticput <x.e: java.lang.String strbuf>"->"staticget <x.e: java.lang.String strbuf>";
+    "push 84"
+    "staticget <x.e: java.lang.String strbuf>"->"push 84";
+    "push 48"
+    "push 84"->"push 48";
+    "push 48"->"virtualinvoke <java.lang.String: java.lang.String replace(char,char)>";
+    "virtualinvoke <java.lang.String: java.lang.String replace(char,char)>"->"staticput <x.e: java.lang.String strbuf>";
+    "staticput <x.e: java.lang.String strbuf>"->"staticget <x.e: java.lang.String strbuf>";
+    "staticinvoke <x.b: byte[] hexToByte(java.lang.String)>"
+    "staticget <x.e: java.lang.String strbuf>"->"staticinvoke <x.b: byte[] hexToByte(java.lang.String)>";
+    "store.r r214"
+    "staticinvoke <x.b: byte[] hexToByte(java.lang.String)>"->"store.r r214";
+    "store.r r214"->"new java.lang.String";
+    "push \"^F@ \u000e#b\""
+    "new java.lang.String"->"push \"^F@ \u000e#b\"";
+    "push \"^F@ \u000e#b\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"b:\u001b$\u001b\'\u001d\u001a&\u0013k\u0006\u0013>Q/o\u000e\u0016f\""
+    "new java.lang.String"->"push \"b:\u001b$\u001b\'\u001d\u001a&\u0013k\u0006\u0013>Q/o\u000e\u0016f\"";
+    "push \"b:\u001b$\u001b\'\u001d\u001a&\u0013k\u0006\u0013>Q/o\u000e\u0016f\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"[\u0016/a9\u000b\u0004,@%.\u0015p\""
+    "new java.lang.String"->"push \"[\u0016/a9\u000b\u0004,@%.\u0015p\"";
+    "push \"[\u0016/a9\u000b\u0004,@%.\u0015p\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"9k\u00046m\u001b/(V\u0015)V|u\""
+    "new java.lang.String"->"push \"9k\u00046m\u001b/(V\u0015)V|u\"";
+    "push \"9k\u00046m\u001b/(V\u0015)V|u\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"$08\u0007~\u0004\u0003J=%a\u00104=%\r>,\u000e{\""
+    "new java.lang.String"->"push \"$08\u0007~\u0004\u0003J=%a\u00104=%\r>,\u000e{\"";
+    "push \"$08\u0007~\u0004\u0003J=%a\u00104=%\r>,\u000e{\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\n>7:n\u0018]&\u0011\u0016\u0006p\""
+    "new java.lang.String"->"push \"\n>7:n\u0018]&\u0011\u0016\u0006p\"";
+    "push \"\n>7:n\u0018]&\u0011\u0016\u0006p\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"9:\'c\u0016\u00007<\u0019(N;*?$h\""
+    "new java.lang.String"->"push \"9:\'c\u0016\u00007<\u0019(N;*?$h\"";
+    "push \"9:\'c\u0016\u00007<\u0019(N;*?$h\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"9\u000eX\u0008\u001f\u0006zf\""
+    "new java.lang.String"->"push \"9\u000eX\u0008\u001f\u0006zf\"";
+    "push \"9\u000eX\u0008\u001f\u0006zf\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"X*\u0002>=,Q)\u0011{(\u001e\u0007E\u000b\f\u0013\ne\""
+    "new java.lang.String"->"push \"X*\u0002>=,Q)\u0011{(\u001e\u0007E\u000b\f\u0013\ne\"";
+    "push \"X*\u0002>=,Q)\u0011{(\u001e\u0007E\u000b\f\u0013\ne\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"5|#22#\u001c\\\"n\u0016wR)s\""
+    "new java.lang.String"->"push \"5|#22#\u001c\\\"n\u0016wR)s\"";
+    "push \"5|#22#\u001c\\\"n\u0016wR)s\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0006WfH!2\r\u001083h$\u000bU5{\""
+    "new java.lang.String"->"push \"\u0006WfH!2\r\u001083h$\u000bU5{\"";
+    "push \"\u0006WfH!2\r\u001083h$\u000bU5{\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u000f83*\u0000\u0015\u0014&Vy=v\u0019\u0013\u0014\u0016p\""
+    "new java.lang.String"->"push \"\u000f83*\u0000\u0015\u0014&Vy=v\u0019\u0013\u0014\u0016p\"";
+    "push \"\u000f83*\u0000\u0015\u0014&Vy=v\u0019\u0013\u0014\u0016p\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u001b\u0012\u0005\nA.p\u0006\u0007r\""
+    "new java.lang.String"->"push \"\u001b\u0012\u0005\nA.p\u0006\u0007r\"";
+    "push \"\u001b\u0012\u0005\nA.p\u0006\u0007r\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"9a\u000f\u0012\\\"?\u0018\""
+    "new java.lang.String"->"push \"9a\u000f\u0012\\\"?\u0018\"";
+    "push \"9a\u000f\u0012\\\"?\u0018\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0018t%)\u00185\u000f>(N\u0002\u000b\u0016R\""
+    "new java.lang.String"->"push \"\u0018t%)\u00185\u000f>(N\u0002\u000b\u0016R\"";
+    "push \"\u0018t%)\u00185\u000f>(N\u0002\u000b\u0016R\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"-!/yd\""
+    "new java.lang.String"->"push \"-!/yd\"";
+    "push \"-!/yd\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"F\u0010 >\u0005X*@<\u0003\\\"\u0005 #V\t+^<S\""
+    "new java.lang.String"->"push \"F\u0010 >\u0005X*@<\u0003\\\"\u0005 #V\t+^<S\"";
+    "push \"F\u0010 >\u0005X*@<\u0003\\\"\u0005 #V\t+^<S\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "new x.a"
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new x.a";
+    "store.r $r129"
+    "new x.a"->"store.r $r129";
+    "load.r $r129"
+    "store.r $r129"->"load.r $r129";
+    "specialinvoke <x.a: void <init>()>"
+    "load.r $r129"->"specialinvoke <x.a: void <init>()>";
+    "specialinvoke <x.a: void <init>()>"->"load.r $r129";
+    "load.r $r129"->"load.r $r129";
+    "load.r r214"
+    "load.r $r129"->"load.r r214";
+    "virtualinvoke <x.a: java.lang.Object[] ro(byte[])>"
+    "load.r r214"->"virtualinvoke <x.a: java.lang.Object[] ro(byte[])>";
+    "virtualinvoke <x.a: java.lang.Object[] ro(byte[])>"->"store.r $r129";
+    "store.r $r129"->"load.r $r129";
+    "virtualinvoke <x.a: x.l[] getoemsc(java.lang.Object[])>"
+    "load.r $r129"->"virtualinvoke <x.a: x.l[] getoemsc(java.lang.Object[])>";
+    "virtualinvoke <x.a: x.l[] getoemsc(java.lang.Object[])>"->"new java.lang.String";
+    "push \"t4\f\u0007#SR\u0019+\u001f\u0006R\""
+    "new java.lang.String"->"push \"t4\f\u0007#SR\u0019+\u001f\u0006R\"";
+    "push \"t4\f\u0007#SR\u0019+\u001f\u0006R\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0010\u0002=f4\u001e\u0018% 3K\u001e\u0002^=C\""
+    "new java.lang.String"->"push \"\u0010\u0002=f4\u001e\u0018% 3K\u001e\u0002^=C\"";
+    "push \"\u0010\u0002=f4\u001e\u0018% 3K\u001e\u0002^=C\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u000e\u0019\u000e x\""
+    "new java.lang.String"->"push \"\u000e\u0019\u000e x\"";
+    "push \"\u000e\u0019\u000e x\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"Q\u001f&_9\u0011\""
+    "new java.lang.String"->"push \"Q\u001f&_9\u0011\"";
+    "push \"Q\u001f&_9\u0011\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"60{Q4]&A\u0002\u0001\u0007\\\"O\f\\\"\u001d7l\""
+    "new java.lang.String"->"push \"60{Q4]&A\u0002\u0001\u0007\\\"O\f\\\"\u001d7l\"";
+    "push \"60{Q4]&A\u0002\u0001\u0007\\\"O\f\\\"\u001d7l\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"*69\\\"\u001d<RH\u0006\u00064g\""
+    "new java.lang.String"->"push \"*69\\\"\u001d<RH\u0006\u00064g\"";
+    "push \"*69\\\"\u001d<RH\u0006\u00064g\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \">U\u001fp\u0013+t\""
+    "new java.lang.String"->"push \">U\u001fp\u0013+t\"";
+    "push \">U\u001fp\u0013+t\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"C\u0019\u001f\u001f\u001c\u0017\""
+    "new java.lang.String"->"push \"C\u0019\u001f\u001f\u001c\u0017\"";
+    "push \"C\u0019\u001f\u001f\u001c\u0017\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"_\u001c!#6$\u0008y~\u0017;F\u0011<s$\u000b\u0010!X\""
+    "new java.lang.String"->"push \"_\u001c!#6$\u0008y~\u0017;F\u0011<s$\u000b\u0010!X\"";
+    "push \"_\u001c!#6$\u0008y~\u0017;F\u0011<s$\u000b\u0010!X\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0007.\f\u0014N\u0004P39\u0003\u0001\\\"=E4\u001b?\u0013f\""
+    "new java.lang.String"->"push \"\u0007.\f\u0014N\u0004P39\u0003\u0001\\\"=E4\u001b?\u0013f\"";
+    "push \"\u0007.\f\u0014N\u0004P39\u0003\u0001\\\"=E4\u001b?\u0013f\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"#\u001bH\u00013_\u001b2\u00048W\""
+    "new java.lang.String"->"push \"#\u001bH\u00013_\u001b2\u00048W\"";
+    "push \"#\u001bH\u00013_\u001b2\u00048W\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"m\u0015\u0012\u0008|\u001b\fUrx\""
+    "new java.lang.String"->"push \"m\u0015\u0012\u0008|\u001b\fUrx\"";
+    "push \"m\u0015\u0012\u0008|\u001b\fUrx\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \")8J:&U\u001f|,\u0014w\""
+    "new java.lang.String"->"push \")8J:&U\u001f|,\u0014w\"";
+    "push \")8J:&U\u001f|,\u0014w\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\n\u0000m&-Rd\u0008&5\u001aF\""
+    "new java.lang.String"->"push \"\n\u0000m&-Rd\u0008&5\u001aF\"";
+    "push \"\n\u0000m&-Rd\u0008&5\u001aF\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"`4}\r$\u001akF\u0012\u0001c.1\u000f|):\u0011>I\""
+    "new java.lang.String"->"push \"`4}\r$\u001akF\u0012\u0001c.1\u000f|):\u0011>I\"";
+    "push \"`4}\r$\u001akF\u0012\u0001c.1\u000f|):\u0011>I\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0019 ><o\u0011x\u0017y\u0015\""
+    "new java.lang.String"->"push \"\u0019 ><o\u0011x\u0017y\u0015\"";
+    "push \"\u0019 ><o\u0011x\u0017y\u0015\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"4={\u0008(^.\u0016\""
+    "new java.lang.String"->"push \"4={\u0008(^.\u0016\"";
+    "push \"4={\u0008(^.\u0016\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\f*C&\f\u0014\fg\""
+    "new java.lang.String"->"push \"\f*C&\f\u0014\fg\"";
+    "push \"\f*C&\f\u0014\fg\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\r+T*m\""
+    "new java.lang.String"->"push \"\r+T*m\"";
+    "push \"\r+T*m\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"Cl+\u0013@4\u0001#\u0008,>P\u0015\u000b\u00122\u0010\""
+    "new java.lang.String"->"push \"Cl+\u0013@4\u0001#\u0008,>P\u0015\u000b\u00122\u0010\"";
+    "push \"Cl+\u0013@4\u0001#\u0008,>P\u0015\u000b\u00122\u0010\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"load.r $r129";
+    "push 1"
+    "load.r $r129"->"push 1";
+    "arrayread.r"
+    "push 1"->"arrayread.r";
+    "load.r r1"
+    "arrayread.r"->"load.r r1";
+    "checkcast"
+    "load.r r1"->"checkcast";
+    "staticinvoke <x.i: void sa(java.lang.Object,java.lang.Object)>"
+    "checkcast"->"staticinvoke <x.i: void sa(java.lang.Object,java.lang.Object)>";
+    "staticinvoke <x.i: void sa(java.lang.Object,java.lang.Object)>"->"new java.lang.String";
+    "push \"\u001c\nG&#~)--\u0016\u0017\""
+    "new java.lang.String"->"push \"\u001c\nG&#~)--\u0016\u0017\"";
+    "push \"\u001c\nG&#~)--\u0016\u0017\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \">/\u0001o\u000e,\u007f\u0003\u0012\u0007^\u0015\u0016M5\u001348D\""
+    "new java.lang.String"->"push \">/\u0001o\u000e,\u007f\u0003\u0012\u0007^\u0015\u0016M5\u001348D\"";
+    "push \">/\u0001o\u000e,\u007f\u0003\u0012\u0007^\u0015\u0016M5\u001348D\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0008\u001b)\u0006<,$B\""
+    "new java.lang.String"->"push \"\u0008\u001b)\u0006<,$B\"";
+    "push \"\u0008\u001b)\u0006<,$B\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"y\u0000r4\u001c\u001e\u0006\u0016eF\u00122S,r\u000faD\""
+    "new java.lang.String"->"push \"y\u0000r4\u001c\u001e\u0006\u0016eF\u00122S,r\u000faD\"";
+    "push \"y\u0000r4\u001c\u001e\u0006\u0016eF\u00122S,r\u000faD\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"X/\u0012\u007f6<\u0019e\u0007,M\u0008UpD\""
+    "new java.lang.String"->"push \"X/\u0012\u007f6<\u0019e\u0007,M\u0008UpD\"";
+    "push \"X/\u0012\u007f6<\u0019e\u0007,M\u0008UpD\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"&:y\u0010\u0019W.F\""
+    "new java.lang.String"->"push \"&:y\u0010\u0019W.F\"";
+    "push \"&:y\u0010\u0019W.F\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u001ck\u0013\t9\u0001j>\u0018\r\\\u000e\u001cy\u0017l\u0016nJ\""
+    "new java.lang.String"->"push \"\u001ck\u0013\t9\u0001j>\u0018\r\\\u000e\u001cy\u0017l\u0016nJ\"";
+    "push \"\u001ck\u0013\t9\u0001j>\u0018\r\\\u000e\u001cy\u0017l\u0016nJ\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"$1r\u000f\u0012o\u00176\\\"\u001e\r\\PN#%nY\""
+    "new java.lang.String"->"push \"$1r\u000f\u0012o\u00176\\\"\u001e\r\\PN#%nY\"";
+    "push \"$1r\u000f\u0012o\u00176\\\"\u001e\r\\PN#%nY\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"b9\u0002V\u001d,\u0001{\\\"\u0007k c\u0012h\u0004\u000e\u0005k\u0013\""
+    "new java.lang.String"->"push \"b9\u0002V\u001d,\u0001{\\\"\u0007k c\u0012h\u0004\u000e\u0005k\u0013\"";
+    "push \"b9\u0002V\u001d,\u0001{\\\"\u0007k c\u0012h\u0004\u000e\u0005k\u0013\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\n\u0002\u0018<\rm*|U1E\""
+    "new java.lang.String"->"push \"\n\u0002\u0018<\rm*|U1E\"";
+    "push \"\n\u0002\u0018<\rm*|U1E\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\\\"q1)\\\"\u0003d\""
+    "new java.lang.String"->"push \"\\\"q1)\\\"\u0003d\"";
+    "push \"\\\"q1)\\\"\u0003d\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0011i\u0002\u0014`\u0011\u0004y\f\u0019\u0018n\u0001\u001d\u001fju\""
+    "new java.lang.String"->"push \"\u0011i\u0002\u0014`\u0011\u0004y\f\u0019\u0018n\u0001\u001d\u001fju\"";
+    "push \"\u0011i\u0002\u0014`\u0011\u0004y\f\u0019\u0018n\u0001\u001d\u001fju\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0004K.\u0010l\u001e\u001aRu%2.qu\""
+    "new java.lang.String"->"push \"\u0004K.\u0010l\u001e\u001aRu%2.qu\"";
+    "push \"\u0004K.\u0010l\u001e\u001aRu%2.qu\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"%T(\u00025\u001c\u0016!?15[{\u001f.(3{\""
+    "new java.lang.String"->"push \"%T(\u00025\u001c\u0016!?15[{\u001f.(3{\"";
+    "push \"%T(\u00025\u001c\u0016!?15[{\u001f.(3{\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"=\u0017.y\u001eF+F\u0002#^\u001a\u0005\u00027`\""
+    "new java.lang.String"->"push \"=\u0017.y\u001eF+F\u0002#^\u001a\u0005\u00027`\"";
+    "push \"=\u0017.y\u001eF+F\u0002#^\u001a\u0005\u00027`\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"6.:1e`\u000697$\u0001Z+\u000et\u001e\u0010\u0012\""
+    "new java.lang.String"->"push \"6.:1e`\u000697$\u0001Z+\u000et\u001e\u0010\u0012\"";
+    "push \"6.:1e`\u000697$\u0001Z+\u000et\u001e\u0010\u0012\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"z\ry)yP\""
+    "new java.lang.String"->"push \"z\ry)yP\"";
+    "push \"z\ry)yP\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"\u0006?\u001899#z\u0001\u0004#5/@i\u0007\u0011+iD\""
+    "new java.lang.String"->"push \"\u0006?\u001899#z\u0001\u0004#5/@i\u0007\u0011+iD\"";
+    "push \"\u0006?\u001899#z\u0001\u0004#5/@i\u0007\u0011+iD\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"$W\u001a*\u0010\u001d\u0013\""
+    "new java.lang.String"->"push \"$W\u001a*\u0010\u001d\u0013\"";
+    "push \"$W\u001a*\u0010\u001d\u0013\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"new java.lang.String";
+    "push \"6=3X\u00110$\u0015[\""
+    "new java.lang.String"->"push \"6=3X\u00110$\u0015[\"";
+    "push \"6=3X\u00110$\u0015[\""->"staticinvoke <k: java.lang.String f(java.lang.String)>";
+    "staticinvoke <k: java.lang.String f(java.lang.String)>"->"specialinvoke <java.lang.String: void <init>(java.lang.String)>";
+    "specialinvoke <java.lang.String: void <init>(java.lang.String)>"->"load.r r0";
+    "fieldget <x.s: int k>"
+    "load.r r0"->"fieldget <x.s: int k>";
+    "fieldget <x.s: int k>"->"arrayread.r";
+    "staticinvoke <x.l: void gr(x.l)>"
+    "arrayread.r"->"staticinvoke <x.l: void gr(x.l)>";
+    "goto return"
+    "staticinvoke <x.l: void gr(x.l)>"->"goto return";
+    "return"
+    "goto return"->"return";
+    "virtualinvoke <java.lang.Exception: void printStackTrace()>"
+    "staticinvoke <x.l: void gr(x.l)>"->"virtualinvoke <java.lang.Exception: void printStackTrace()>";
+}

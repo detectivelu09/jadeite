@@ -1,0 +1,11 @@
+digraph "" {
+    "r0 := @this: O1"
+    "load.r r0"
+    "r0 := @this: O1"->"load.r r0";
+    "push \"\""
+    "load.r r0"->"push \"\"";
+    "virtualinvoke <O1: void real_init(java.lang.String)>"
+    "push \"\""->"virtualinvoke <O1: void real_init(java.lang.String)>";
+    "return"
+    "virtualinvoke <O1: void real_init(java.lang.String)>"->"return";
+}
