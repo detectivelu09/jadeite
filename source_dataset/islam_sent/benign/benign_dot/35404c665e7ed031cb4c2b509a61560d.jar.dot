@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: jracers.JRacers"
-    "return"
-    "r0 := @this: jracers.JRacers"->"return";
-}

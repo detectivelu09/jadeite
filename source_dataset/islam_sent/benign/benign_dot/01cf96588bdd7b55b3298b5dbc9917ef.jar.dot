@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: RushHour"
-    "return"
-    "r0 := @this: RushHour"->"return";
-}

@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: Plugin"
-    "return"
-    "r0 := @this: Plugin"->"return";
-}

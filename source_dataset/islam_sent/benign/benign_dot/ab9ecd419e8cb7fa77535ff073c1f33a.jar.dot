@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: javazoom.jl.player.PlayerApplet"
-    "return"
-    "r0 := @this: javazoom.jl.player.PlayerApplet"->"return";
-}

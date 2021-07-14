@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: Main"
-    "return"
-    "r0 := @this: Main"->"return";
-}

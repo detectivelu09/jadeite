@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: GoogleTrax"
-    "return"
-    "r0 := @this: GoogleTrax"->"return";
-}

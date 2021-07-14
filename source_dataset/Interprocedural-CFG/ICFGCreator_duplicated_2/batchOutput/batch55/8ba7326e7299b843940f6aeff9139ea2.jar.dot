@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: ZeMapper"
-    "return"
-    "r0 := @this: ZeMapper"->"return";
-}

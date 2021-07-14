@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: SpellCheckerApplet"
-    "return"
-    "r0 := @this: SpellCheckerApplet"->"return";
-}

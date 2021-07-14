@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: psbASEANClient"
-    "return"
-    "r0 := @this: psbASEANClient"->"return";
-}
