@@ -1,0 +1,14 @@
+- required binaries from the deps directory need to be in the path
+- also needs javap in the path
+- the .jar goes into /opt/lib
+- plugin.conf, *.sh, *.py should be in /opt/bin/
+- make sure to edit the plugin.conf file to your needs
+
+NEW:
+- jarhead.model is expected in /opt/bin/
+- weka needs to be installed (in /opt/lib)
+- parallel is no longer needed
+- cyvis dir needs to be in /opt/bin/ or the paths in tracer_run.sh and jarhead.py adjusted
+
+- run make in src/java/ to genereate needed class files
+

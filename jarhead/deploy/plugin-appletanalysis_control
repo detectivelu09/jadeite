@@ -1,0 +1,11 @@
+Package: <@package_name@>
+Version: <@version@>
+Section: analysis
+Priority: optional
+Architecture: <@architecture@>
+Essential: no
+Depends: <@dependencies@>
+Installed-Size: 1024
+Maintainer: marco@cs.ucsb.edu
+Provides: <@package_name@>
+Description: This package provides the jarhead plugin.
