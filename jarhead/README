@@ -2,7 +2,7 @@ JARHEAD
 -------
 
 
-New to run and log:
+"New" to run Jarhead and log:
 execRun.sh <location of jar folder>
 
 After running this command, yo will have two .csv files:
