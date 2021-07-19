@@ -12,11 +12,10 @@
     * [Tester](https://github.com/sridhar-research-lab/jadeite/tree/master/source-code/Tester)
 
 * [dataset](https://github.com/sridhar-research-lab/jadeite/tree/master/dataset)
-    * [benign](https://github.com/sridhar-research-lab/jadeite/tree/master/dataset/benign)
-    * [malicious](https://github.com/sridhar-research-lab/jadeite/tree/master/dataset/malicious)
+    * [raw](https://github.com/sridhar-research-lab/jadeite/tree/master/dataset/raw)
+    * [proccessed](https://github.com/sridhar-research-lab/jadeite/tree/master/dataset/proccessed)
 
 * [results](https://github.com/sridhar-research-lab/jadeite/tree/master/results)
     * [DL_Results](https://github.com/sridhar-research-lab/jadeite/tree/master/results/DL_Results)
     * [IL_Results](https://github.com/sridhar-research-lab/jadeite/tree/master/results/IL_Results)
     * [jarhead](https://github.com/sridhar-research-lab/jadeite/tree/master/results/jarhead)
-    * [proccessed_files](https://github.com/sridhar-research-lab/jadeite/tree/master/results/proccessed_files)
