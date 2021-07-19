@@ -345,16 +345,17 @@ def main():
     else:
         bin_features  +="0,"
     if found:
-        bin_features +="1"
         if os.path.exists("nocve"):
             print sys.argv[1] + "malicious" + found
         else:
             print "malicious " + found_cve
     else:
-        bin_features +="0"
         print "benign"
     if uses_reflection_to_create_objects(func_calls) or uses_reflection_to_call_methods(func_calls) or uses_reflection_to_set_fields(func_calls):
+    	bin_features +="1"
         print "reflection"
+    else:
+    	bin_features +="0"
 
     with open("bin_attr.csv", "a") as myfile:
         print (bin_features)
