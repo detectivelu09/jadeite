@@ -9,7 +9,7 @@ from sklearn import preprocessing
 def load_train(train_path, classes, image_size, reshape):
     images = []
     labels = []
-    attributes = ['file','midisoundbank','midisequencer','rmi','serialize','rhino','sms','atomic','jlist','colorconvertopfilter','sqldriver','storeimagearray','suntracing','mbeanserverintrospector','mbeaninstantiator','alphacomposite','findstaticsetter','lookupbytebi','alphacompositecompose','execute','malicious']
+    attributes = ['file','midisoundbank','midisequencer','rmi','serialize','rhino','sms','atomic','jlist','colorconvertopfilter','sqldriver','storeimagearray','suntracing','mbeanserverintrospector','mbeaninstantiator','alphacomposite','findstaticsetter','lookupbytebi','alphacompositecompose','execute','det']
     data = pd.DataFrame(columns=attributes)
 
     tmp_df = pd.read_csv('binary_attr_jarhead.csv')
