@@ -4,7 +4,7 @@
 
 
 ```.
-├── source-code
+├── [source-code](https://github.com/sridhar-research-lab/jadeite/tree/master/source-code)
 │   ├── bin
 │   ├── DotConverter
 │   ├── ICFGCreator
