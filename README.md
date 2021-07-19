@@ -3,7 +3,6 @@
 ## Source code and Dataset
 
 
-```.
 ├── [source-code](https://github.com/sridhar-research-lab/jadeite/tree/master/source-code)
 │   ├── bin
 │   ├── DotConverter
@@ -39,6 +38,5 @@
 │
 ├── LICENSE
 │
-└── README.md
- ```
+└── [README.md](https://github.com/sridhar-research-lab/jadeite/tree/master/README.md)
 
