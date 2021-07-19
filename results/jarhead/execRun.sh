@@ -8,7 +8,7 @@ fi
 
 
 echo -n "" > bin_attr.csv
-echo -n "file,midisoundbank,midisequencer,rmi,serialize,rhino,sms,atomic,jlist,colorconvertopfilter,sqldriver,storeimagearray,suntracing,mbeanserverintrospector,mbeaninstantiator,alphacomposite,findstaticsetter,lookupbytebi,alphacompositecompose,execute,malicious" >> bin_attr.csv
+echo -n "file,midisoundbank,midisequencer,rmi,serialize,rhino,sms,atomic,jlist,colorconvertopfilter,sqldriver,storeimagearray,suntracing,mbeanserverintrospector,mbeaninstantiator,alphacomposite,findstaticsetter,lookupbytebi,alphacompositecompose,execute,det" >> bin_attr.csv
 echo "" >> bin_attr.csv
 
 echo -n "" > results.csv
