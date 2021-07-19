@@ -1,6 +1,0 @@
-# external dependencies needed for compilation
-#
-# fill in with appropriate values and rename to deps
-# don't commit this template file
-LLWEB_JAR=./llweb.jar
-LLWEB_LIBS=commons-logging-1.1.1.jar

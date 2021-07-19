@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: JavaVersion"
-    "return"
-    "r0 := @this: JavaVersion"->"return";
-}

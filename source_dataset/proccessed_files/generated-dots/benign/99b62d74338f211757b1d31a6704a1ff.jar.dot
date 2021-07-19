@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: pim"
-    "return"
-    "r0 := @this: pim"->"return";
-}

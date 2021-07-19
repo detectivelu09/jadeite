@@ -1,1 +1,0 @@
-[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.

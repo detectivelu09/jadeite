@@ -1,5 +1,0 @@
-digraph "" {
-    "r0 := @this: ParticleText"
-    "return"
-    "r0 := @this: ParticleText"->"return";
-}

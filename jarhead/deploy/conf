@@ -1,6 +1,0 @@
-APT::FTPArchive::Release::Origin "TLLOD";
-APT::FTPArchive::Release::Label "The llweb analyzer.";
-APT::FTPArchive::Release::Codename "lucid";
-APT::FTPArchive::Release::Architectures "amd64";
-APT::FTPArchive::Release::Components "llweb";
-APT::FTPArchive::Release::Description "llweb repository";

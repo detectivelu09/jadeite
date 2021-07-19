@@ -1,0 +1,29 @@
+JARHEAD
+-------
+
+
+"New" to run Jarhead and log:
+execRun.sh <location of jar folder>
+
+After running this command, yo will have two .csv files:
+"bin_attr.csv" which contains the binary attributes for the provided jar folder.
+
+"results.csv" this file contains the results of the malware detection for the provided folder:0 bengin, and 1 malicious
+
+Install:
+
+Run make in src/java/
+
+Usage:
+
+python run.py <.jar or .class file to be checked>
+
+OR
+
+./run.sh <.jar or .class file to be checked> (Better Performance)
+
+Note: The .jar or .class file needs to be in this directory (same as this README file)
+
+Another note: The JohannesAppletPlugin is currently broken, will fix when jarhead is stable. Use run.py instead.
+
+Yet another note: The current jarhead.model file has been somewhat tested and is fairly accurate.
