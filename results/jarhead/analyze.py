@@ -711,24 +711,23 @@ def appletanalysis(func_calls, instantiated_objects, interfaces, extends, casts,
     else:
         bin_features  +="0,"
 
-    if found:
+    if uses_reflection_to_create_objects(func_calls) or uses_reflection_to_call_methods(func_calls) or uses_reflection_to_set_fields(func_calls):
         bin_features +="1"
+    else:
+        bin_features +="0"
 
-        z= open("/home/iobaidat/jarhead/bin_attr.csv","a")
-        z.write(bin_features)
-        z.close()
+    os.chdir(os.path.dirname(__file__))
+    loca_h=str(os.getcwd()+"/bin_attr.csv")
+    z= open(loca_h,"a")
+    z.write(bin_features)
+    z.close()
 
+    if found:
         if os.path.exists("nocve"):
             return "malicious" + found
         else:
             return "malicious " + found_cve
     else:
-        bin_features +="0"
-
-        z= open("/home/iobaidat/jarhead/bin_attr.csv","a")
-        z.write(bin_features)
-        z.close()
-
         return False
 
 def jarhead(func_calls, instantiated_objects, interfaces, extends, instantiated_object_arrays, classes, strings, instructions, n_functions, line_cnt):
